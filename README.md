@@ -1,22 +1,26 @@
-# CineFlix
+## Enunciado
 
-# To do:
+Crea una aplicación para buscar películas
 
--Crear una aplicacion web para buscar películas
+API a usar: - https://www.omdbapi.com/
+Consigue la API Key en la propia página web registrando tu email.
 
-# API usada: 
+Requerimientos:
 
--https://www.omdbapi.com/
--API_KEY: 4287ad07
+✅ Necesita mostrar un input para buscar la película y un botón para buscar.
 
-# Requerimientos:
+✅ Lista las películas y muestra el título, año y poster.
 
--Necesita mostrar un input para buscar la película y un botón para buscar.
--Lista las películas encontradas y muestra el título, año y poster.
--Haz que las películas se muestren en un grid responsive.
+✅ Que el formulario funcione
 
-# Primera iteración:
+✅ Haz que las películas se muestren en un grid responsive.
 
--Evitar que se haga la misma búsqueda dos veces seguidas.
--Haz que la búsqueda se haga automáticamente al escribir.
--Evita que se haga la búsqueda continuamente al escribir (debounce)
+✅ Hacer el fetching de datos a la API
+
+Primera iteración:
+
+✅ Evitar que se haga la misma búsqueda dos veces seguidas.
+
+✅ Haz que la búsqueda se haga automáticamente al escribir.
+
+✅ Evita que se haga la búsqueda continuamente al escribir (debounce)
